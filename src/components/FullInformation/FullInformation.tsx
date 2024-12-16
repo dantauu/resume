@@ -4,7 +4,7 @@ export const FullInformation = () => {
 				<div className='information-wrapper flex flex-col gap-[20px]'>
 					<div className='information-title'>
 						<h1 className='text-[25px] teext-[#888888cb] font-bold'>
-							NexGen(Россия)
+							Nebula(Россия)
 						</h1>
 					</div>
 					<div className='information-inner flex flex-col gap-[10px]'>
