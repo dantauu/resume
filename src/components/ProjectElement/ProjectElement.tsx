@@ -17,7 +17,7 @@ export const ProjectElement = () => {
 				<div className='card-wrapper grid grid-cols-2 gap-y-[50px] gap-x-10 pt-10 pb-[110px]'>
 					<ProjectElementItem
 						text={'Интернет магазин умных товаров'}
-						link='https://light-buy.netlify.app'
+						link='https://light-buy.vercel.app/'
 						img={lightBuyIcon}
 					/>
 
