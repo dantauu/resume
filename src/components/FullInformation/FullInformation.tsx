@@ -3,13 +3,13 @@ export const FullInformation = () => {
 			<>
 				<div className='information-wrapper flex flex-col gap-[20px]'>
 					<div className='information-title'>
-						<h1 className='text-[25px] teext-[#888888cb] font-bold'>
+						<h1 className='text-[25px] teext-[#888888cb] font-Montserrat-B'>
 							Nebula(Россия)
 						</h1>
 					</div>
 					<div className='information-inner flex flex-col gap-[10px]'>
 						<div className='information-grade'>
-							<h1 className='text-[25px] font-normal'>
+							<h1 className='text-[25px] text-[#444444] font-Montserrat-B'>
 								Junior Frontend developer
 							</h1>
 						</div>
@@ -41,7 +41,7 @@ export const FullInformationKwork = () => {
     return (
 			<div className='flex flex-col gap-[20px] pt-[40px] pb-[50px]'>
 				<div className='information-title'>
-					<h1 className='text-[25px] teext-[#888888cb] font-bold'>Freelance</h1>
+					<h1 className='text-[25px] teext-[#888888cb] font-Montserrat-B'>Freelance</h1>
 				</div>
 				<div className='information-inner flex flex-col'>
 					<div className='information-inner__description max-w-[555px]'>

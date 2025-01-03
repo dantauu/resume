@@ -5,9 +5,9 @@ export const InformationElem = () => {
 			<>
 				<div className='header-cont'>
 					<div className=''>
-						<h1 className='text-[25px] text-[#88888860] font-Montserrat-B'>Опыт работы</h1>
+						<h1 className='text-[25px] text-[#7d7d7d6e] font-Montserrat-B'>Опыт работы 1 год</h1>
 					</div>
-					<div style={{ borderColor: '#88888860' }} className='border'></div>
+					<div style={{ borderColor: '#88888860' }} className='border mb-9'></div>
 					<div className='place flex gap-[108px]'>
 						<div className='max-w-[109px]'>
 							<p className='text-[#888888cb]'>
@@ -22,9 +22,9 @@ export const InformationElem = () => {
 
 				<div className='header-cont'>
 					<div className='place flex gap-[100px]'>
-						<div className='max-w-[127px] pt-[45px]'>
+						<div className='max-w-[107px] pt-[45px]'>
 							<p className='text-[#888888cb]'>
-								Январь 2024 - Фераль(включительно) 2024 2 месяцев
+								Декабрь 2023 - Март 2024 4 месяца
 							</p>
 						</div>
 						<div className='information-right'>

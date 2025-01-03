@@ -48,7 +48,7 @@ const ProjectElementItem: FC<ProjectElementItemProps> = ({ img, text, link }) =>
 			<div className='card-item flex flex-col items-center max-w-[100%] 
 			bg-[#0000000c] p-7 rounded-[10%]'>
 				<div className='card-description'>
-					<p className='text-[20px] pb-5 font-semibold'>{text}</p>
+					<p className='text-[20px] pb-5 font-Montserrat-B'>{text}</p>
 				</div>
 				<div className='card-img'>
 					<img
@@ -62,7 +62,7 @@ const ProjectElementItem: FC<ProjectElementItemProps> = ({ img, text, link }) =>
                     bg-[#6f00ff57] w-[140px]'
 				>
 					<div className='card-link'>
-						<button className='text-[#393939] font-medium'>Перейти</button>
+						<button className='text-[#393939] font-Montserrat-M'>Перейти</button>
 					</div>
 					<div className=''>
 						<svg

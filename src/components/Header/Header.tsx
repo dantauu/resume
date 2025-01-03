@@ -24,7 +24,7 @@ export const Header = () => {
 				</div>
 				<div className='header-connect__me'>
 					<div className='header-title'>
-						<h2 className='text-[19px] pb-[10px]'>Связаться со мной:</h2>
+						<h2 className='text-[19px] pb-[10px] font-Montserrat-M'>Связаться со мной:</h2>
 					</div>
 					<div className='flex flex-col gap-[15px]'>
 						<div className='flex justify-between items-center'>
@@ -77,7 +77,7 @@ interface HeaderItemPprops {
 const HeaderItem: FC<HeaderItemPprops> = ({ text }) => {
     return (
 		<div className='header-description__item'>
-			<h3 className='text-[19px] pb-[7px] font-Montserrat-B text-[#8a8a8a]'>{text}</h3>
+			<h3 className='text-[19px] pb-[7px] font-Montserrat-B text-[#525252]'>{text}</h3>
 		</div>
 	)
 }
