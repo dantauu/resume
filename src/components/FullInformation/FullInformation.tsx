@@ -43,7 +43,7 @@ export const FullInformationKwork = () => {
 				<div className='information-title'>
 					<h1 className='text-[25px] teext-[#888888cb] font-bold'>Freelance</h1>
 				</div>
-				<div className='information-inner flex flex-col gap-[10px]'>
+				<div className='information-inner flex flex-col'>
 					<div className='information-inner__description max-w-[555px]'>
 						<p className=''>- Активное обсуждение и решение задач заказчика.</p>
 					</div>

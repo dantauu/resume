@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     background: linear-gradient(135deg, rgb(218, 218, 218) 50%, rgb(255, 255, 255) 100%);
     background-position: center;
@@ -24,6 +25,22 @@ ul {
     padding: 0;
 }
 
+
+/* ШРИФТЫ */
+
+@font-face {
+    font-family: 'Montserrat-B';
+    src: url('../assets/fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-M';
+    src: url('../assets/fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 .container {

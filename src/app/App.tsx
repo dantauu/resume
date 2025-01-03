@@ -1,9 +1,9 @@
-import './index.css'
 import { Home } from '../pages/Home'
 import { Header } from '../components/Header/Header'
 import { createContext, useState } from 'react'
+import './index.css'
 
-interface NavigateContextProps {
+export interface NavigateContextProps {
 	active: string,
 	setActive: (value: string) => void
 }

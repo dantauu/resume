@@ -5,7 +5,7 @@ export const InformationElem = () => {
 			<>
 				<div className='header-cont'>
 					<div className=''>
-						<h1 className='text-[25px] text-[#88888860]'>Опыт работы</h1>
+						<h1 className='text-[25px] text-[#88888860] font-Montserrat-B'>Опыт работы</h1>
 					</div>
 					<div style={{ borderColor: '#88888860' }} className='border'></div>
 					<div className='place flex gap-[108px]'>

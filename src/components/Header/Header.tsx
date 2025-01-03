@@ -29,7 +29,7 @@ export const Header = () => {
 					<div className='flex flex-col gap-[15px]'>
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium'>Telegram:</h2>
+								<h2 className='font-medium font-Montserrat-M'>Telegram:</h2>
 							</div>
 							<a target='_blank' href='https://t.me/dantauu'>
 								<HeaderIcons img={telegramIcon} />
@@ -38,7 +38,7 @@ export const Header = () => {
 
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium'>VK:</h2>
+								<h2 className='font-medium font-Montserrat-M'>VK:</h2>
 							</div>
 							<a target='_blank' href='https://vk.com/dantauu'>
 								<HeaderIcons img={vkIcon} />
@@ -47,7 +47,7 @@ export const Header = () => {
 
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium'>E-mail:</h2>
+								<h2 className='font-medium font-Montserrat-M'>E-mail:</h2>
 							</div>
 							<a target='_blank'href='https://mail.google.com/mail/u/0/#search/azazzzz455u%40gmail.com?compose=new'
 							>
@@ -57,7 +57,7 @@ export const Header = () => {
 					</div>
 					<div className='flex items-center justify-between gap-4 pt-5'>
 						<div className='connect-git__title'>
-							<h2 className='font-medium'>GitHub:</h2>
+							<h2 className='font-medium font-Montserrat-M'>GitHub:</h2>
 						</div>
 						<a target='_blank' href='https://github.com/dantauu'>
 							<HeaderIcons img={gitHubIcon} />
@@ -77,7 +77,7 @@ interface HeaderItemPprops {
 const HeaderItem: FC<HeaderItemPprops> = ({ text }) => {
     return (
 		<div className='header-description__item'>
-			<h3 className='text-[19px] pb-[7px]'>{text}</h3>
+			<h3 className='text-[19px] pb-[7px] font-Montserrat-B text-[#8a8a8a]'>{text}</h3>
 		</div>
 	)
 }

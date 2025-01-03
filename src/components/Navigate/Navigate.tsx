@@ -6,9 +6,8 @@ const NavigateData = [
 	{ id: 2, name: 'Портфолио' },
 ]
 
-
 export const Navigate = () => {
-	const { active, setActive }: any = useContext(NavigateContext)
+	const { active, setActive } = useContext(NavigateContext)
     const handleSelect = (name:string) => {
         setActive(name)
     }
@@ -23,7 +22,7 @@ export const Navigate = () => {
 								active === item.name && 'active'
 							}`}
 						>
-							<button className="">{item.name}</button>
+							<button className="font-Montserrat-M">{item.name}</button>
 						</div>
 					))}
 				</div>
