@@ -15,9 +15,7 @@ export const FullInformation = () => {
 						</div>
 						<div className='information-inner__description max-w-[555px]'>
 							<p className=''>
-								- Учавствовал в разработке mapket place`а для продажи умных
-								товаров для дома, с 0 писал логику фильтрации товаров по
-								категориям и ассортиментам с использованием Redux Toolkit.
+								- Участвовал в разработке AI ассистента, с использованием svg, axios, Redux Toolkit, React Transition, Swiper, Tailwind, React Hook Form.
 							</p>
 						</div>
 						<div className='information-inner__description max-w-[555px]'>
@@ -41,14 +39,19 @@ export const FullInformationKwork = () => {
     return (
 			<div className='flex flex-col gap-[20px] pt-[40px] pb-[50px]'>
 				<div className='information-title'>
-					<h1 className='text-[25px] teext-[#888888cb] font-Montserrat-B'>Freelance</h1>
+					<h1 className='text-[25px] teext-[#888888cb] font-Montserrat-B'>
+						Freelance
+					</h1>
 				</div>
 				<div className='information-inner flex flex-col'>
 					<div className='information-inner__description max-w-[555px]'>
 						<p className=''>- Активное обсуждение и решение задач заказчика.</p>
 					</div>
 					<div className='information-inner__description max-w-[555px]'>
-						<p className=''>- Выполнял большие проекты раньше дедлайна.</p>
+						<p className=''>
+							-Реализовывал market place для продажи товаров с использованием
+							React, ReduxToolkit, RTKQuery
+						</p>
 					</div>
 				</div>
 			</div>

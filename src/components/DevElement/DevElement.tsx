@@ -14,7 +14,7 @@ export const DevElement = () => {
 							Frontend-разработчик с полутора годами опыта, включая год
 							коммерческой практики. В своей работе использовал как нативный
 							JavaScript так и React, активно применяю стейт-менеджеры (Redux
-							Toolkit - чаще всего) и по надобносям бизнеса UI-библиотеки.
+							Toolkit - чаще всего) и по надобности бизнеса UI-библиотеки.
 							Разрабатывал интеграции с API, использовал RTK Query и axios для
 							запросов. В портфолио можно ознакомиться с примерами моих
 							проектов. В свободное время увлекаюсь залом и читаю книги Джеймса
@@ -53,8 +53,7 @@ export const DevElement = () => {
 					<div className='max-w-[300px] pt-5'>
 						<p className='font-Montserrat-M'>
 							<span className='font-Montserrat-B'>Stack:</span> HTML5, CSS3,
-							JavaScript, SCSS, SASS, GitHub, React, Redux Toolkit, React Router
-							DOM, TypeScript, RTK Query, Tailwind, Figma
+							JavaScript, SCSS, SASS, GitHub, React, Redux Toolkit, React Router DOM, TypeScript, RTK Query, Tailwind, axios, Figma
 						</p>
 					</div>
 				</div>
