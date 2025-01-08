@@ -18,11 +18,11 @@ export const Navigate = () => {
 						<div
 							onClick={() => handleSelect(item.name)}
 							key={index}
-							className={`text-[17px] navigate-item ${
+							className={`text-[17px] text-[#d2d1d1] navigate-item ${
 								active === item.name && 'active'
 							}`}
 						>
-							<button className="font-Montserrat-M">{item.name}</button>
+							<button className='font-Montserrat-M'>{item.name}</button>
 						</div>
 					))}
 				</div>

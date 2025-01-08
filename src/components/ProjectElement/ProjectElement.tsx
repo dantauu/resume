@@ -45,10 +45,14 @@ export const ProjectElement = () => {
 
 const ProjectElementItem: FC<ProjectElementItemProps> = ({ img, text, link }) => {
     return (
-			<div className='card-item flex flex-col items-center max-w-[100%] 
-			bg-[#0000000c] p-7 rounded-[10%]'>
+			<div
+				className='card-item flex flex-col items-center max-w-[100%] 
+			bg-[#ffffff0c] p-7 rounded-[10%]'
+			>
 				<div className='card-description'>
-					<p className='text-[20px] pb-5 font-Montserrat-B'>{text}</p>
+					<p className='text-[20px] text-[#dedddd] pb-5 font-Montserrat-B'>
+						{text}
+					</p>
 				</div>
 				<div className='card-img'>
 					<img
@@ -57,12 +61,16 @@ const ProjectElementItem: FC<ProjectElementItemProps> = ({ img, text, link }) =>
 						alt=''
 					/>
 				</div>
-				<a target='_blank' href={link}
+				<a
+					target='_blank'
+					href={link}
 					className='flex items-center justify-center mt-4 rounded-xl 
                     bg-[#6f00ff57] w-[140px]'
 				>
 					<div className='card-link'>
-						<button className='text-[#393939] font-Montserrat-M'>Перейти</button>
+						<button className='text-[#dedddd] font-Montserrat-M'>
+							Перейти
+						</button>
 					</div>
 					<div className=''>
 						<svg
@@ -73,7 +81,7 @@ const ProjectElementItem: FC<ProjectElementItemProps> = ({ img, text, link }) =>
 						>
 							<path
 								d='M6 12H18M18 12L13 7M18 12L13 17'
-								stroke='#393939'
+								stroke='#dedddd'
 								stroke-width='2'
 								stroke-linecap='round'
 								stroke-linejoin='round'

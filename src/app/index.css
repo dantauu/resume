@@ -4,7 +4,7 @@
 
 
 body {
-    background: linear-gradient(135deg, rgb(218, 218, 218) 50%, rgb(255, 255, 255) 100%);
+    background: rgb(1, 24, 55); 
     background-position: center;
     background-size: cover;
 }

@@ -1,8 +1,8 @@
 import { FC } from "react"
 import avatarIcon from '../../assets/img/next-avatar.png'
-import telegramIcon from '../../assets/img/telegram.png'
-import vkIcon from '../../assets/img/vk.png'
-import emailIcon from '../../assets/img/email.png'
+import telegramIcon from '../../assets/img/telegram.svg'
+import vkIcon from '../../assets/img//vk.svg'
+import emailIcon from '../../assets/img/email.svg'
 import gitHubIcon from '../../assets/img/github.svg'
 
 
@@ -17,19 +17,55 @@ export const Header = () => {
 						alt=''
 					/>
 				</div>
-				<div className='header-description'>
-					<HeaderItem text='Место жительства: Таганрог' />
-					<HeaderItem text='Гражданство: Россия' />
-					<HeaderItem text='Готов к переезду, готов к командировкам' />
+				<div className='flex flex-col gap-10 text-[20px]'>
+					<div className=''>
+						<div className=''>
+							<h1 className='font-Montserrat-B text-[#d7d7d7]'>
+								Имя:{' '}
+								<span className='text-[#8e8e8e] font-Montserrat-M'>Артём</span>
+							</h1>
+						</div>
+						<div className=''>
+							<h1 className='font-Montserrat-B text-[#d7d7d7]'>
+								Фамилия:{' '}
+								<span className='text-[#8e8e8e] font-Montserrat-M'>
+									Галанский
+								</span>
+							</h1>
+						</div>
+						<div className=''>
+							<h1 className='font-Montserrat-B text-[#d7d7d7]'>
+								Отчество:{' '}
+								<span className='text-[#8e8e8e] font-Montserrat-M'>
+									Олегович
+								</span>
+							</h1>
+						</div>
+					</div>
+					<div className='header-description'>
+						<div className='flex gap-2'>
+							<HeaderItem text='Место жительства:' />
+							<span className='text-[#8e8e8e] font-Montserrat-M'>Таганрог</span>
+						</div>
+						<div className='flex gap-2'>
+							<HeaderItem text='Гражданство:' />
+							<span className='text-[#8e8e8e] font-Montserrat-M'>Росиия</span>
+						</div>
+						<HeaderItem text='Готов к переезду, готов к командировкам' />
+					</div>
 				</div>
 				<div className='header-connect__me'>
 					<div className='header-title'>
-						<h2 className='text-[19px] pb-[10px] font-Montserrat-M'>Связаться со мной:</h2>
+						<h2 className='text-[19px] text-[#d7d7d7] pb-[10px] font-Montserrat-M'>
+							Связаться со мной:
+						</h2>
 					</div>
 					<div className='flex flex-col gap-[15px]'>
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium font-Montserrat-M'>Telegram:</h2>
+								<h2 className='font-medium font-Montserrat-M text-[#d7d7d7]'>
+									Telegram:
+								</h2>
 							</div>
 							<a target='_blank' href='https://t.me/dantauu'>
 								<HeaderIcons img={telegramIcon} />
@@ -38,7 +74,9 @@ export const Header = () => {
 
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium font-Montserrat-M'>VK:</h2>
+								<h2 className='font-medium font-Montserrat-M text-[#d7d7d7]'>
+									VK:
+								</h2>
 							</div>
 							<a target='_blank' href='https://vk.com/dantauu'>
 								<HeaderIcons img={vkIcon} />
@@ -47,9 +85,13 @@ export const Header = () => {
 
 						<div className='flex justify-between items-center'>
 							<div className=''>
-								<h2 className='font-medium font-Montserrat-M'>E-mail:</h2>
+								<h2 className='font-medium font-Montserrat-M text-[#d7d7d7]'>
+									E-mail:
+								</h2>
 							</div>
-							<a target='_blank'href='https://mail.google.com/mail/u/0/#search/azazzzz455u%40gmail.com?compose=new'
+							<a
+								target='_blank'
+								href='https://mail.google.com/mail/u/0/#search/azazzzz455u%40gmail.com?compose=new'
 							>
 								<HeaderIcons img={emailIcon} />
 							</a>
@@ -57,7 +99,9 @@ export const Header = () => {
 					</div>
 					<div className='flex items-center justify-between gap-4 pt-5'>
 						<div className='connect-git__title'>
-							<h2 className='font-medium font-Montserrat-M'>GitHub:</h2>
+							<h2 className='font-medium font-Montserrat-M text-[#d7d7d7]'>
+								GitHub:
+							</h2>
 						</div>
 						<a target='_blank' href='https://github.com/dantauu'>
 							<HeaderIcons img={gitHubIcon} />
@@ -76,10 +120,12 @@ interface HeaderItemPprops {
 
 const HeaderItem: FC<HeaderItemPprops> = ({ text }) => {
     return (
-		<div className='header-description__item'>
-			<h3 className='text-[19px] pb-[7px] font-Montserrat-B text-[#525252]'>{text}</h3>
-		</div>
-	)
+			<div className='header-description__item'>
+				<h3 className='text-[19px] text-[#d7d7d7] pb-[7px] font-Montserrat-B'>
+					{text}
+				</h3>
+			</div>
+		)
 }
 
 const HeaderIcons: FC<HeaderItemPprops> = ({ img }) => {

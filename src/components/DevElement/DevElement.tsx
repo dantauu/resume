@@ -10,14 +10,15 @@ export const DevElement = () => {
 					</div>
 					<div style={{ borderColor: '#88888860' }} className='border'></div>
 					<div className='max-w-[700px]'>
-						<p className='font-Montserrat-M'>
+						<p className='font-Montserrat-M text-[#c0bfbf]'>
 							Frontend-разработчик с полутора годами опыта, включая год
 							коммерческой практики. В своей работе использовал как нативный
-							JavaScript так и фреймворки, например, React, активно применяю стейт-менеджеры (ReduxToolkit или Zustand) и по надобности бизнеса UI-библиотеки.
-							Разрабатывал интеграции с API, использовал RTK Query и axios для
-							запросов. В портфолио можно ознакомиться с примерами моих
-							проектов. В свободное время увлекаюсь залом и читаю книги Джеймса
-							Клира.
+							JavaScript так и фреймворки, например, React, активно применяю
+							стейт-менеджеры (ReduxToolkit или Zustand) и по надобности бизнеса
+							UI-библиотеки. Разрабатывал интеграции с API, использовал RTK
+							Query и axios для запросов. В портфолио можно ознакомиться с
+							примерами моих проектов. В свободное время увлекаюсь залом и читаю
+							книги Джеймса Клира.
 						</p>
 					</div>
 				</div>
@@ -31,28 +32,33 @@ export const DevElement = () => {
 				</div>
 				<div className='dev-wrapper pt-5 leading-7'>
 					<div className='dev-special__title'>
-						<h1 className='font-bold text-3xl font-Montserrat-B'>
+						<h1 className='font-bold text-3xl text-[#d7d7d7] font-Montserrat-B'>
 							Frontend разработчик
 						</h1>
 					</div>
 					<div className='dev-special__descroption'>
-						<p className='font-Montserrat-M'>Специализации:</p>
+						<p className='font-Montserrat-M text-[#d7d7d7]'>Специализации:</p>
 					</div>
 					<div className='pl-5'>
-						<p className='font-Montserrat-M'>- Программист разработчик</p>
+						<p className='font-Montserrat-M text-[#c0bfbf]'>
+							- Программист разработчик
+						</p>
 					</div>
 					<div className='dev-special__descroption'>
-						<p className='font-Montserrat-M'>График работы: полный день</p>
+						<p className='font-Montserrat-M text-[#c0bfbf]'>
+							График работы: полный день
+						</p>
 					</div>
 					<div className='dev-special__descroption'>
-						<p className='font-Montserrat-M'>
+						<p className='font-Montserrat-M text-[#c0bfbf]'>
 							Желательное время в пути до работы: не имеет значения
 						</p>
 					</div>
 					<div className='max-w-[300px] pt-5'>
-						<p className='font-Montserrat-M'>
-							<span className='font-Montserrat-B'>Stack:</span> HTML5, CSS3,
-							JavaScript, SCSS, SASS, GitHub, React, Redux Toolkit, React Router DOM, TypeScript, RTK Query, Tailwind, axios, Figma
+						<p className='font-Montserrat-M text-[#c0bfbf]'>
+							<span className='font-Montserrat-B text-[#dfdfdf]'>Stack: </span>
+							HTML5, CSS3, JavaScript, SCSS, SASS, GitHub, React, Redux Toolkit,
+							React Router DOM, TypeScript, RTK Query, Tailwind, axios, Figma
 						</p>
 					</div>
 				</div>
